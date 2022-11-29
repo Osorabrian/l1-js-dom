@@ -1,6 +1,19 @@
 // TODO: Listen for page loading (window)
+// window.onload =  console.log("Brian Isaboke")
+
+// window .onload = () => {
+//     console.log('doc:', document)
+// }
+
+window .onload = () => {
+    console.log('window:', 'loaded')
+}
 
 // TODO: Listen for page loading (document)
+
+document.addEventListener('DOMContentLoaded', (e) => {
+    console.log('event',e)
+})
 
 // TODO: Access the h1 in HTML page
 
